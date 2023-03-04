@@ -1,0 +1,114 @@
+body{
+  width: 100vh;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+  position: relative;
+}
+.div1{
+  position: absolute;
+  border-radius: 2vh;
+  background-color: #333;
+  width: 67%;
+  height: 57%;
+  left: 50%;
+  top: 50%;
+  transform: translate(20%, -50%);
+}
+.div2{
+  border-radius: 2vh;
+  padding: 3%;
+  position: relative;
+  width: 61%;
+  height: 51%;
+  left: 30%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+.imgeu{
+  position: absolute;
+  width: 24%;
+  height: 27%;
+  border-radius: 1vh;
+}
+.nome{
+  position: absolute;
+  color: rgb(39, 86, 216);
+  font-family: 'Comfortaa';
+  font-size: 24px;
+  left: 40%;
+}
+.curso{
+  position: absolute;
+  color: rgb(238, 238, 238);
+  font-family: 'Comfortaa';
+  left: 40%;
+  top: 13%;
+}
+.obj{
+  color: rgb(39, 86, 216);
+}
+.objt{
+  position: absolute;
+  color: rgb(238, 238, 238);
+  font-family: 'Comfortaa';
+  top: 60%;
+}
+.hobbie{
+ color: rgb(39, 86, 216);
+}
+.hobbies{
+  position: absolute;
+  color: rgb(238, 238, 238);
+  font-family: 'Comfortaa';
+  top: 40%;
+}
+.cttlkd{
+  height: 8%;
+  position: absolute;
+  font-family: 'Comfortaa';
+  top: 92%;
+  transform: translate(-50, 50);
+}
+.cttlkd:hover{
+  transition-duration: 0.5s;
+  font-family: 'Comfortaa';
+  top: 90%;
+  transform: translate(-50, 50);
+}
+.cttlkd:not(:hover){
+  transition-duration: 0.5s;
+  font-family: 'Comfortaa';
+}
+a{
+  color: rgb(88, 120, 187);
+  text-decoration: none;
+}
+a:hover{
+  transition-duration: 1s;
+  color:  rgb(0, 89, 255);
+}
+a:not(:hover){
+  transition-duration: 1s;
+  color:  rgb(88, 120, 187);
+}
+.git{
+  height: 8%;
+  position: absolute;
+  font-family: 'Comfortaa';
+  top: 92%;
+  left: 60%;
+  transform: translate(-50, 50);
+  text-decoration: none;
+}
+.git:hover{
+  transition-duration: 0.5s;
+  font-family: 'Comfortaa';
+  top: 90%;
+  left: 60%;
+  transform: translate(-50, 50);
+}
+.git:not(:hover){
+  transition-duration: 0.5s;
+  font-family: 'Comfortaa';
+}
